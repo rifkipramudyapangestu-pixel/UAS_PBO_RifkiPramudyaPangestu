@@ -11,6 +11,15 @@ require_once __DIR__ . '/../models/MahasiswaMandiri.php';
 require_once __DIR__ . '/../models/MahasiswaBidikmisi.php';
 require_once __DIR__ . '/../models/MahasiswaPrestasi.php';
 
+/**
+ * @see Database
+ * @see Mahasiswa
+ * @see MahasiswaMandiri
+ * @see MahasiswaBidikmisi
+ * @see MahasiswaPrestasi
+ */
+
+
 // ─── Helper: format rupiah ────────────────────────────────
 function fmt(float $n): string {
     return 'Rp ' . number_format($n, 0, ',', '.');
