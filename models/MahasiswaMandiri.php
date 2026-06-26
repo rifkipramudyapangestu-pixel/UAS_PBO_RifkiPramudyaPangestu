@@ -28,7 +28,7 @@ class MahasiswaMandiri extends Mahasiswa
         );
 
         $this->golonganUkt = $golonganUkt;
-        $this->namaWali = $namaWali;
+        $this->namaWali    = $namaWali;
     }
 
     public function hitungTagihanSemester(): float

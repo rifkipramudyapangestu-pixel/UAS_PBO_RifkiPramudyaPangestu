@@ -31,10 +31,10 @@ abstract class Mahasiswa
         int $semester,
         float $tarifUktNominal
     ) {
-        $this->id_mahasiswa = $id_mahasiswa;
+        $this->id_mahasiswa   = $id_mahasiswa;
         $this->nama_mahasiswa = $nama_mahasiswa;
-        $this->nim = $nim;
-        $this->semester = $semester;
+        $this->nim            = $nim;
+        $this->semester       = $semester;
         $this->tarifUktNominal = $tarifUktNominal;
     }
 

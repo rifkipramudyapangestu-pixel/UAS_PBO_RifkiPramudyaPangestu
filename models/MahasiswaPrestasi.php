@@ -28,7 +28,7 @@ class MahasiswaPrestasi extends Mahasiswa
         );
 
         $this->namaInstansiBeasiswa = $namaInstansiBeasiswa;
-        $this->minimalIpkSyarat = $minimalIpkSyarat;
+        $this->minimalIpkSyarat     = $minimalIpkSyarat;
     }
 
     public function hitungTagihanSemester(): float
