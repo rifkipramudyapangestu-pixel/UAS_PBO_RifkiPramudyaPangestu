@@ -33,7 +33,7 @@ class MahasiswaBidikmisi extends Mahasiswa
 
     public function hitungTagihanSemester(): float
     {
-        return $this->tarifUktNominal;
+        return 0;
     }
 
     public function tampilkanSpesifikAkademik(): void
